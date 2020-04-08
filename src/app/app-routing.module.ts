@@ -10,9 +10,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
 const routes: Routes = [
   {path:'home',component:FormComponent},
   { path:'signin',component:SigninComponent},
-  { path:'login', component:FinishComponent},
-  {path:'**',component:NotFoundComponent},
-   {path:'',redirectTo:'/login',pathMatch:'full'}
+  { path:'login', component:FinishComponent}
+  // {path:'**',component:NotFoundComponent},
+  //  {path:'',redirectTo:'/login',pathMatch:'full'}
 ];
 
 @NgModule({
